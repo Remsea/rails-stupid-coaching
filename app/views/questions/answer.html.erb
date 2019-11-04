@@ -1,0 +1,17 @@
+<h1>Stupid Coach</h1>
+
+
+<div class='questions'>
+<h2>The question is</h2>
+<p><%= @question %></p>
+<p><span>_ You</span></p>
+</div>
+
+<div class ='answer'>
+<h2>The answer is</h2>
+<p> <%= @answer %> </p>
+<p><span>_ Your coach</span></p>
+</div>
+
+
+<%= link_to "Go back to the question folder", :action => "ask" %>
